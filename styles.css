@@ -1,13 +1,16 @@
+/* Estilo general del cuerpo */
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
     background-color: #f4f4f4;
 }
 
+/* Estilo del encabezado h1 */
 h1 {
     color: #333;
 }
 
+/* Estilo de los contenedores div */
 div {
     border: 1px solid #ccc;
     height: 500px;
