@@ -17,5 +17,11 @@
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <!-- Custom script for chart logic -->
     <script src="script.js"></script>
+    <script>
+        // Fallback for legacy browsers that do not support ES6 features
+        if (!window.Promise) {
+            document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.2.8/es6-promise.auto.min.js"><\/script>');
+        }
+    </script>
 </body>
 </html>
